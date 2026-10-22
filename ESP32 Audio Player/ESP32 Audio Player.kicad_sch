@@ -1085,7 +1085,7 @@
 				)
 			)
 			(property "Value" "SD"
-				(at 0 0 0)
+				(at 8.89 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1094,8 +1094,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Extras:SD Card Reader"
-				(at 0 0 0)
+			(property "Footprint" "Micro SD Card Reader:MODULE_MICROSD_SPI_OR_SDIO_CARD"
+				(at 12.192 1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1153,9 +1153,9 @@
 			)
 			(symbol "SPI_SD_Card_Reader_1_1"
 				(pin power_in line
-					(at -2.54 -5.08 0)
+					(at -2.54 -8.89 0)
 					(length 2.54)
-					(name "GND"
+					(name "3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1170,10 +1170,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 -8.89 0)
+				(pin output line
+					(at 25.4 -13.97 180)
 					(length 2.54)
-					(name "VCC"
+					(name "CS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1191,7 +1191,7 @@
 				(pin output line
 					(at 25.4 -2.54 180)
 					(length 2.54)
-					(name "MISO"
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1209,7 +1209,7 @@
 				(pin output line
 					(at 25.4 -6.35 180)
 					(length 2.54)
-					(name "MOSI"
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1227,7 +1227,7 @@
 				(pin output line
 					(at 25.4 -10.16 180)
 					(length 2.54)
-					(name "SCK"
+					(name "MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1242,10 +1242,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 25.4 -13.97 180)
+				(pin power_in line
+					(at -2.54 -5.08 0)
 					(length 2.54)
-					(name "CS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2348,10 +2348,6 @@
 		(uuid "61e96538-0779-4c43-894f-4da65a867b9d")
 	)
 	(no_connect
-		(at 88.9 43.18)
-		(uuid "1b5b9729-a584-4219-84dc-440a7d83fc79")
-	)
-	(no_connect
 		(at 88.9 71.12)
 		(uuid "1d40d586-c6a1-4e8b-a7a1-abb691efb2d3")
 	)
@@ -2973,6 +2969,30 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 88.9 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19ed6a39-4755-4aeb-abd0-0f9bcc4fd464")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.3928 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 95.25 111.76 0)
@@ -3045,7 +3065,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "3V3"
 		(shape input)
 		(at 104.14 95.25 180)
 		(fields_autoplaced yes)
@@ -3055,9 +3075,9 @@
 			)
 			(justify right)
 		)
-		(uuid "30ee577d-645a-443b-9461-ad817f5f1ff7")
+		(uuid "409f4390-226b-4530-88d6-5ac5845bf1f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.8567 95.25 0)
+			(at 97.6472 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,7 +3681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Extras:SD Card Reader"
+		(property "Footprint" "Micro SD Card Reader:MODULE_MICROSD_SPI_OR_SDIO_CARD"
 			(at 106.68 86.36 0)
 			(hide yes)
 			(show_name no)
