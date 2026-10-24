@@ -26,9 +26,9 @@
 
 **2h**
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/81b0a2d1f13dc2671c46f2415e1bb5f2c2c303719036f8986b21edd16ee63204.png)
+![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/81b0a2d1f13dc2671c46f2415e1bb5f2c2c303719036f8986b21edd16ee63204.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/eabf2c6d55d84a11ec69c2c72023590d4a247eb0a239aa54794f6cfc883db44d.png)
+![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/eabf2c6d55d84a11ec69c2c72023590d4a247eb0a239aa54794f6cfc883db44d.png)
 
 Got the SD card and OLED display up and running, now I will test the max98357a amplifier and update how did it go
 After I get it working, Ill make some utility functions and start on the projects main firmware
@@ -41,9 +41,9 @@ Since theres only code for now Ill only attach random screenshots i take in code
 Finally completed the function to read only `.wav` and `.mp3` files from the given SD card by looking online at what other people did, took a little longer than expected
 Now I will move to checking how to make the amplifier work and move on to the main project part
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/a8270e3db9fb8e69c11fccdb6cb82170f4aec861a9eaac6ccf1783c6cde0b80e.png)
+![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/a8270e3db9fb8e69c11fccdb6cb82170f4aec861a9eaac6ccf1783c6cde0b80e.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/08902eb399251d77d683f048d19530ce7589929fe87bf1d914d7ffed45650630.png)
+![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/08902eb399251d77d683f048d19530ce7589929fe87bf1d914d7ffed45650630.png)
 
 ### 2026-10-20 – Managed to get the max98357a amplifier working via code, now I can will start with the main part of the program - handling button presses, managing SD card audio and then go to PCB and design a small
 
@@ -51,11 +51,11 @@ Now I will move to checking how to make the amplifier work and move on to the ma
 
 Managed to get the max98357a amplifier working via code, now I can will start with the main part of the program - handling button presses, managing SD card audio and then go to PCB and design a small 3d printable case.
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/88f3961005f3f820715f8af0ed0fd0a446b0a49fa5b599f5afa0aaf2d9a4d4a7.png)
+![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/88f3961005f3f820715f8af0ed0fd0a446b0a49fa5b599f5afa0aaf2d9a4d4a7.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/efb632c5b531c3a98d355f7892191a05b3afbee49725fbb2cd403b24bd128f5f.png)
+![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/efb632c5b531c3a98d355f7892191a05b3afbee49725fbb2cd403b24bd128f5f.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/0e812f903b5faa2916c8f8f6d08cbb8403937e2b776fbe5aaae12a01109210b9.png)
+![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/0e812f903b5faa2916c8f8f6d08cbb8403937e2b776fbe5aaae12a01109210b9.png)
 
 NOTE: By testing components I mean searching load on internet tutorials to get it working on my simulaiton, then once I get funding for parts, Ill upload the code and get it working!
 
@@ -63,11 +63,11 @@ NOTE: By testing components I mean searching load on internet tutorials to get i
 
 **3h**
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/f89cd8a98c301ae1f47296ff8896e818f0bfc46355d2381b445d29ef07fdfeba.png)
+![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/f89cd8a98c301ae1f47296ff8896e818f0bfc46355d2381b445d29ef07fdfeba.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/a2904a53be9baf3b3b1d5da30e85b603f3a4b0804a70561e3e286227fe621e5d.png)
+![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/a2904a53be9baf3b3b1d5da30e85b603f3a4b0804a70561e3e286227fe621e5d.png)
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/203ef690d97639437d4668803a14e102a9090ce12af48891de4003bb70c0d920.png)
+![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/203ef690d97639437d4668803a14e102a9090ce12af48891de4003bb70c0d920.png)
 
 Mostly Completed the firmware part - everything is working together, OLED shows currently playing song, amplifier/speaker also works properly along with SD card reading
 Now I will move on the building the PCB and the project will be completed
