@@ -104,26 +104,19 @@ void setup() {
 void loop() {
   player.copy();
   display.setCursor(0,0);
-  // if (detectButtonPress(pauseB)) {player.begin();}
+
   if (detectButtonPress(pauseB)) { player.setActive(!player.isActive()); }
   display.println(player.isActive() ? "Playing" : "Inactive"); // print current audio state
   display.println(player.audioSource().toStr()); // print current audio path on SD card
   
-  if (detectButtonPress(nextB)) {;
-    player.next();
-    display.println("Next Track");
-  }
-
-  if (detectButtonPress(prevB)) {
-    player.previous();
-    display.println("prev track");
-  }
+  if (detectButtonPress(nextB)) { player.next(); }
+  if (detectButtonPress(prevB)) { player.previous(); }
 
   display.display();
   display.clearDisplay();
 }
 
-// --- WORKING GET WAV/MP3 FILES CODE!!!! ---- 
+//NOTE: This code works to get all the mp3 files names in an SD card - not impleted as of now, but will be very soon
 //
 // SH1106 display;
 // #include <SD.h>
@@ -161,17 +154,17 @@ void loop() {
 //   // nothing happens after setup finishes.
 // }
 //
-// void printWavFiles(File dir, int numTabs) {
+// void printmp3Files(File dir, int numTabs) {
 //   while (true) {
 //
 //     File entry =  dir.openNextFile();
 //     if (! entry) { break; } // No more files
 //     if (!entry.isDirectory()) {
 //       String filename = String(entry.name());
-//       if (filename.endsWith(".wav") || filename.endsWith(".mp3")){ display.println(filename); }
+//       if (filename.endsWith(".mp3")){ display.println(filename); }
 //     } else {
 //       display.println("/");
-//       printWavFiles(entry, numTabs + 1);
+//       printmp3Files(entry, numTabs + 1);
 //     }
 //     entry.close();
 //
