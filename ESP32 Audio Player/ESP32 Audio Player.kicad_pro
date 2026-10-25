@@ -546,7 +546,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "ESP32 Audio Player/",
       "specctra_dsn": "",
       "step": "ESP32 Audio Player.step",
       "vrml": ""

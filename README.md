@@ -49,7 +49,14 @@ An ESP32 (my favourite microcontroller) based music player - similar to an iPod,
 
 ## BoM
 
-(Coming Soon)
+| PART | QUANTITY | Purpose |
+| ---- | -------- | ------- |
+| ESP32 | 1 | Main Processing unit |
+| PCM5102a | 1 | Main I2S DAC |
+| SPI SD Card Reader | 1 | To read the SD Card |
+| Professional PCB | 1 | To house the electronics |
+| OLED SSD1306 | 1 | To display some stats about the song |
+| Mechanical switches | 3 | For audio controls |
 
 ## Firmware Working
 
