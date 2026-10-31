@@ -87,6 +87,8 @@ Now I will move on the building the PCB and the project will be completed
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/bbb6ee9b82bd228b5537974dedcc1b36c0e1bd648072ceb0b48d5020e4e4191b.png)
 
 Fully Completed the PCB, checking out both firmware and PCB
+making the pcb wasnt hard, except it a took a little bit of time, but other than that it went well, I jsut simply used a cheap trick to save some pcb space, like make the pcb a little more compact and look cleaner dimentionally
+for reviewers: I'll attach an image im trying to tell in the following journals
 I still need to make a few minor adjustments to the PCB before submitting the project.
 Things to do before submitting: proper README and some finishing touches to OLED UI
 
