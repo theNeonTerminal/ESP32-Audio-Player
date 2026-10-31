@@ -14,7 +14,7 @@
 
 ## Contents
 
-1. [2026-10-20: ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/81b0a2d1f13dc2671c46f2415e1bb5f2c2c303719036f8986b21edd16ee63204.png)](#2026-10-20-imagehttpshalflifehackclub-assetscomhackclub-half)
+1. [2026-10-20: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/81b0a2d1f13dc2671c46f2415e1bb5f2c2c303719036f8986b21edd16ee63204.png)](#2026-10-20-imagehttpshalflifehackclub-assetscomsessionssg2yt)
 2. [2026-10-20: Finally completed the function to read only `.wav` and `.mp3` files from the given SD card by looking online at what other people did, took a little longer than expected](#2026-10-20-finally-completed-the-function-to-read-only-wav-a)
 3. [2026-10-20: Managed to get the max98357a amplifier working via code, now I can will start with the main part of the program - handling button presses, managing SD card audio and then go to PCB and design a small](#2026-10-20-managed-to-get-the-max98357a-amplifier-working-vi)
 4. [2026-10-21: ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/f89cd8a98c301ae1f47296ff8896e818f0bfc46355d2381b445d29ef07fdfeba.png)](#2026-10-21-imagehttpshalflifehackclub-assetscomhackclub-half)
@@ -23,7 +23,7 @@
 
 ## Design
 
-### 2026-10-20: ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/81b0a2d1f13dc2671c46f2415e1bb5f2c2c303719036f8986b21edd16ee63204.png)
+### 2026-10-20: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/81b0a2d1f13dc2671c46f2415e1bb5f2c2c303719036f8986b21edd16ee63204.png)
 
 **2h**
 
@@ -32,6 +32,8 @@
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/eabf2c6d55d84a11ec69c2c72023590d4a247eb0a239aa54794f6cfc883db44d.png)
 
 Got the SD card and OLED display up and running, now I will test the max98357a amplifier and update how did it go
+OLED display working (so wiring and code is correct, same with others as well) and showing things its meant to show and sd card reading is working, max98357a amp also giving good sound as expected
+most of the time, for me its really a wiring issue, where the wire I use either isnt internally connected somehow or isnt fully touching the pads, so thats ruled out
 After I get it working, Ill make some utility functions and start on the projects main firmware
 Since theres only code for now Ill only attach random screenshots i take in code
 
