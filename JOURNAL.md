@@ -17,7 +17,7 @@
 1. [2026-10-20: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/81b0a2d1f13dc2671c46f2415e1bb5f2c2c303719036f8986b21edd16ee63204.png)](#2026-10-20-imagehttpshalflifehackclub-assetscomsessionssg2yt)
 2. [2026-10-20: Finally completed the function to read only `.wav` and `.mp3` files from the given SD card by looking online at what other people did, took a little longer than expected](#2026-10-20-finally-completed-the-function-to-read-only-wav-a)
 3. [2026-10-20: Managed to get the max98357a amplifier working via code, now I can will start with the main part of the program - handling button presses, managing SD card audio and then go to PCB and design a small](#2026-10-20-managed-to-get-the-max98357a-amplifier-working-vi)
-4. [2026-10-21: ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/f89cd8a98c301ae1f47296ff8896e818f0bfc46355d2381b445d29ef07fdfeba.png)](#2026-10-21-imagehttpshalflifehackclub-assetscomhackclub-half)
+4. [2026-10-21: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/f89cd8a98c301ae1f47296ff8896e818f0bfc46355d2381b445d29ef07fdfeba.png)](#2026-10-21-imagehttpshalflifehackclub-assetscomsessionssg2yt)
 5. [2026-10-22: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/bbb6ee9b82bd228b5537974dedcc1b36c0e1bd648072ceb0b48d5020e4e4191b.png)](#2026-10-22-imagehttpshalflifehackclub-assetscomsessionssg2yt)
 6. [2026-10-24: ![footprint](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/bd7812a56c013f460c673f4962379be4e923ec606004bc5719991aabecfd2774.png)](#2026-10-24-footprinthttpshalflifehackclub-assetscomsessionss)
 
@@ -64,7 +64,7 @@ Managed to get the max98357a amplifier working via code, now I can will start wi
 
 NOTE: By testing components I mean searching load on internet tutorials to get it working on my simulaiton, then once I get funding for parts, Ill upload the code and get it working!
 
-### 2026-10-21: ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/f89cd8a98c301ae1f47296ff8896e818f0bfc46355d2381b445d29ef07fdfeba.png)
+### 2026-10-21: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/f89cd8a98c301ae1f47296ff8896e818f0bfc46355d2381b445d29ef07fdfeba.png)
 
 **3h**
 
@@ -75,6 +75,9 @@ NOTE: By testing components I mean searching load on internet tutorials to get i
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/203ef690d97639437d4668803a14e102a9090ce12af48891de4003bb70c0d920.png)
 
 Mostly Completed the firmware part - everything is working together, OLED shows currently playing song, amplifier/speaker also works properly along with SD card reading
+
+Used the arduino-audio-tools library on github, a real lifesaver, else I had to spent an additions 4-5 hours in an attempt to implement this feature (reading from sd card and playing it in speaker via I2S)
+
 Now I will move on the building the PCB and the project will be completed
 
 ### 2026-10-22: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/bbb6ee9b82bd228b5537974dedcc1b36c0e1bd648072ceb0b48d5020e4e4191b.png)
