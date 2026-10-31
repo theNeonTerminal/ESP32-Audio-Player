@@ -32,7 +32,7 @@
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/eabf2c6d55d84a11ec69c2c72023590d4a247eb0a239aa54794f6cfc883db44d.png)
 
 Got the SD card and OLED display up and running, now I will test the max98357a amplifier and update how did it go
-OLED display working (so wiring and code is correct, same with others as well) and showing things its meant to show and sd card reading is working, max98357a amp also giving good sound as expected
+OLED display working (so wiring and code is correct, same with others as well) and showing things its meant to show and sd card reading is working
 most of the time, for me its really a wiring issue, where the wire I use either isnt internally connected somehow or isnt fully touching the pads, so thats ruled out
 After I get it working, Ill make some utility functions and start on the projects main firmware
 Since theres only code for now Ill only attach random screenshots i take in code
