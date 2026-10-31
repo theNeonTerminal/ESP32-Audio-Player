@@ -44,6 +44,8 @@ Since theres only code for now Ill only attach random screenshots i take in code
 Finally completed the function to read only `.wav` and `.mp3` files from the given SD card by looking online at what other people did, took a little longer than expected
 Now I will move to checking how to make the amplifier work and move on to the main project part
 
+Had some difficulties to filer the SD card read function provided in SD card example code, since it does not check for any extension, a (not so) quick google search and helped to fix this issue
+
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/a8270e3db9fb8e69c11fccdb6cb82170f4aec861a9eaac6ccf1783c6cde0b80e.png)
 
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/08902eb399251d77d683f048d19530ce7589929fe87bf1d914d7ffed45650630.png)
