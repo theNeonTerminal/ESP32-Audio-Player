@@ -15,7 +15,7 @@ An ESP32 (my favourite microcontroller) based music player - similar to an iPod,
 
 <div align="center">
 
-![Circuit schematic](./schematic.png)
+![Circuit schematic](./images/schematic.png)
 
 </div>
 
@@ -23,7 +23,10 @@ An ESP32 (my favourite microcontroller) based music player - similar to an iPod,
 
 <div align="center">
 
-![PCB layout](./footprint.png)
+![PCB layout](./images/footprint.png)
+
+> [!IMPORTANT]
+> It might look like overlapping footprints, but female header pins should be used on the ESP32 and OLED display to raise the height by a little and make enough space on the components, the actual holes dont overlap so its safe to use.
 
 </div>
 
@@ -31,10 +34,17 @@ An ESP32 (my favourite microcontroller) based music player - similar to an iPod,
 
 <div align="center">
 
-![3D PCB view](./3d1.png)
-![3D PCB view](./3d2.png)
+![3D PCB view](./images/3d1.png)
+![3D PCB view](./images/3d2.png)
 
 </div>
+
+
+> [!IMPORTANT]
+> The PCM5102a DAC module must have this SCK bridge soldered on the front side and this very particular configuration on the back side for it properly get into I2S mode, else you might have a fully silent output
+
+![I2S config 1](./images/i2s1.png)
+![I2S config 2](./images/i2s2.png)
 
 ---
 
@@ -57,6 +67,19 @@ An ESP32 (my favourite microcontroller) based music player - similar to an iPod,
 | Professional PCB | 1 | To house the electronics |
 | OLED SSD1306 | 1 | To display some stats about the song |
 | Mechanical switches | 3 | For audio controls |
+| Battery | 1 | To power the device |
+| Professional PCB | 1 | To house the electronics |
+
+---
+
+### SD Card Formatting
+
+1. Format your SD card into FAT32 (can be done using Windows built in formatting tool for card 32GB or less, for larger cards, try using 3rd party tools like MiniTool Partition Wizard)
+2. Put your favourite `.mp3` songs into the SD card, and make sure the file names are not too long, for the text might overflow on the OLED display.
+3. Paths dont really matter, like your song can be insider many folders, and it finds them all.
+4. Enjoy ;)
+
+---
 
 ## Firmware Working
 

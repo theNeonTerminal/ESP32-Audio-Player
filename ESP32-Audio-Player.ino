@@ -7,14 +7,15 @@
 
 #define SD_CS        5
 #define SD_MOSI    23
-#define SD_MISO    19
-#define SD_SCK     18 // SD Card Pins
+#define SD_MISO    18
+#define SD_SCK     19 // SD Card Pins
 
 #define I2S_DOUT     4
 #define I2S_BCLK     2
 #define I2S_LRC     15 // Max98357A Pins
 
 const int pauseB = 34, nextB = 36, prevB = 39;
+static unsigned long lastDisplayUpdate = 0;
 
 // ========== AUDIO PLAYER ==========
 const char *startFilePath = "/";
@@ -26,16 +27,10 @@ MP3DecoderHelix decoder;
 AudioPlayer player(source, i2s, decoder);
 Adafruit_SSD1306 display(128, 64, &Wire, -1);
 
-void printMetaData(MetaDataType type, const char* str, int len) {
-  display.print("Currently Playing:");
-  display.print(toStr(type));
-  display.print(": ");
-  display.println(str);
-}
-
 void printCurrentSong(){}
 
 bool detectButtonPress(uint8_t pin) { // Simple function to detect keystrokes
+    // Please note: the pause/play button will also behave on/off at internvals in held down fully, thats not worht the time to fix, for others work well
     static unsigned long lastTrigger[40] = {0};
     static bool wasPressed[40] = {false};
 
@@ -89,7 +84,6 @@ void setup() {
   }
 
   // Initialize player
-  player.setMetadataCallback(printMetaData);
   player.begin();
   player.setActive(0);
 
@@ -103,17 +97,20 @@ void setup() {
 
 void loop() {
   player.copy();
-  display.setCursor(0,0);
 
   if (detectButtonPress(pauseB)) { player.setActive(!player.isActive()); }
-  display.println(player.isActive() ? "Playing" : "Inactive"); // print current audio state
-  display.println(player.audioSource().toStr()); // print current audio path on SD card
   
   if (detectButtonPress(nextB)) { player.next(); }
   if (detectButtonPress(prevB)) { player.previous(); }
 
-  display.display();
-  display.clearDisplay();
+  if (millis() - lastDisplayUpdate >= 500) {
+    display.clearDisplay();
+    display.setCursor(0,0);
+    lastDisplayUpdate = millis();
+    display.println(player.isActive() ? "Playing" : "Inactive"); // print current audio state
+    display.println(player.audioSource().toStr()); // print current audio path on SD card
+    display.display();
+  }
 }
 
 //NOTE: This code works to get all the mp3 files names in an SD card - not impleted as of now, but will be very soon
