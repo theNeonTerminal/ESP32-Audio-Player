@@ -46,6 +46,8 @@ Now I will move to checking how to make the amplifier work and move on to the ma
 
 Had some difficulties to filer the SD card read function provided in SD card example code, since it does not check for any extension, a (not so) quick google search and helped to fix this issue
 
+FUTURE NOTE: I did not get much time after completing the project to implement the menu, so Ill leave the part commented, so i can later implement a "Select Song" menu
+
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/a8270e3db9fb8e69c11fccdb6cb82170f4aec861a9eaac6ccf1783c6cde0b80e.png)
 
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/08902eb399251d77d683f048d19530ce7589929fe87bf1d914d7ffed45650630.png)
