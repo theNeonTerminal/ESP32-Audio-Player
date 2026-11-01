@@ -16,7 +16,7 @@
 
 1. [2026-10-20: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/81b0a2d1f13dc2671c46f2415e1bb5f2c2c303719036f8986b21edd16ee63204.png)](#2026-10-20-imagehttpshalflifehackclub-assetscomsessionssg2yt)
 2. [2026-10-20: Finally completed the function to read only `.wav` and `.mp3` files from the given SD card by looking online at what other people did, took a little longer than expected](#2026-10-20-finally-completed-the-function-to-read-only-wav-a)
-3. [2026-10-20: Managed to get the max98357a amplifier working via code, now I can will start with the main part of the program - handling button presses, managing SD card audio and then go to PCB and design a small](#2026-10-20-managed-to-get-the-max98357a-amplifier-working-vi)
+3. [2026-10-20: Managed to get the max98357a amplifier working via code, now I can will start with the main part of the program - handling button presses, managing SD card audio and then go to PCB.](#2026-10-20-managed-to-get-the-max98357a-amplifier-working-vi)
 4. [2026-10-21: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/f89cd8a98c301ae1f47296ff8896e818f0bfc46355d2381b445d29ef07fdfeba.png)](#2026-10-21-imagehttpshalflifehackclub-assetscomsessionssg2yt)
 5. [2026-10-22: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/bbb6ee9b82bd228b5537974dedcc1b36c0e1bd648072ceb0b48d5020e4e4191b.png)](#2026-10-22-imagehttpshalflifehackclub-assetscomsessionssg2yt)
 6. [2026-10-24: ![footprint](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/bd7812a56c013f460c673f4962379be4e923ec606004bc5719991aabecfd2774.png)](#2026-10-24-footprinthttpshalflifehackclub-assetscomsessionss)
@@ -52,19 +52,18 @@ FUTURE NOTE: I did not get much time after completing the project to implement t
 
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/08902eb399251d77d683f048d19530ce7589929fe87bf1d914d7ffed45650630.png)
 
-### 2026-10-20: Managed to get the max98357a amplifier working via code, now I can will start with the main part of the program - handling button presses, managing SD card audio and then go to PCB and design a small
+### 2026-10-20: Managed to get the max98357a amplifier working via code, now I can will start with the main part of the program - handling button presses, managing SD card audio and then go to PCB.
 
 **3h**
 
-Managed to get the max98357a amplifier working via code, now I can will start with the main part of the program - handling button presses, managing SD card audio and then go to PCB and design a small 3d printable case.
+Managed to get the max98357a amplifier working via code, now I can will start with the main part of the program - handling button presses, managing SD card audio and then go to PCB.
+Used a bare minimum I2S driver, had to do a lot of work to make it work for the 1st time, but now I will search for a library that already does most of the hardwork
 
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/88f3961005f3f820715f8af0ed0fd0a446b0a49fa5b599f5afa0aaf2d9a4d4a7.png)
 
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/efb632c5b531c3a98d355f7892191a05b3afbee49725fbb2cd403b24bd128f5f.png)
 
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/0e812f903b5faa2916c8f8f6d08cbb8403937e2b776fbe5aaae12a01109210b9.png)
-
-NOTE: By testing components I mean searching load on internet tutorials to get it working on my simulaiton, then once I get funding for parts, Ill upload the code and get it working!
 
 ### 2026-10-21: ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/f89cd8a98c301ae1f47296ff8896e818f0bfc46355d2381b445d29ef07fdfeba.png)
 
